@@ -1,2 +1,2 @@
-# app-farmacia
-Aplicación de farmacia publica
+# rs solutions
+Repositorio de aplicaciones
