@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="form-container">
+    <h1>APP FARMACIA</h1>
+    <form (ngSubmit)="verificarCodigo()">
+      <input #codigoInput id="codigoInput" name="codigoInput" [ngModel]="codigo" (ngModelChange)="codigo = $event" placeholder="Ingrese el código de la farmacia" required />
+      <button type="submit">INGRESAR</button>
+    </form>
+    <p>{{ mensaje }}</p>
+  </div>
+</div>
+<footer class="footer">
+  &copy; 2024 RS Solutions. Todos los derechos reservados.
+</footer>
